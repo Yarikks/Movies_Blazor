@@ -1,0 +1,9 @@
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\bin\Debug\netstandard2.0\Movies_Blazor.Shared.deps.json
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\bin\Debug\netstandard2.0\Movies_Blazor.Shared.dll
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\bin\Debug\netstandard2.0\Movies_Blazor.Shared.pdb
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.csprojAssemblyReference.cache
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.csproj.CoreCompileInputs.cache
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.AssemblyInfoInputs.cache
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.AssemblyInfo.cs
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.dll
+D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.pdb
