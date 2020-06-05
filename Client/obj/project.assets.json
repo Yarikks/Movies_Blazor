@@ -1480,11 +1480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yorik\\Desktop\\Movies_Blazor\\Client\\Movies_Blazor.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Client\\Movies_Blazor.Client.csproj",
       "projectName": "Movies_Blazor.Client",
-      "projectPath": "C:\\Users\\Yorik\\Desktop\\Movies_Blazor\\Client\\Movies_Blazor.Client.csproj",
+      "projectPath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Client\\Movies_Blazor.Client.csproj",
       "packagesPath": "C:\\Users\\Yorik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yorik\\Desktop\\Movies_Blazor\\Client\\obj\\",
+      "outputPath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yorik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1500,8 +1500,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Yorik\\Desktop\\Movies_Blazor\\Shared\\Movies_Blazor.Shared.csproj": {
-              "projectPath": "C:\\Users\\Yorik\\Desktop\\Movies_Blazor\\Shared\\Movies_Blazor.Shared.csproj"
+            "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Shared\\Movies_Blazor.Shared.csproj": {
+              "projectPath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Shared\\Movies_Blazor.Shared.csproj"
             }
           }
         }

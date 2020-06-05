@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Zktor57Q+PtZRFT4SfWBTX9VeKnisupr74Puw0ko7C7AbqyycPGPW3HGz70v4WxNHx/Je+4mbIAH0zSE3tAeg==",
+  "dgSpecHash": "bPy73YcAui1/mOohVsQgagMYQ/jZKzEdnFHyeOdyGAWN0ZgXJ1lQ7UJm04JqPha4/uxj97qCSbCQ7QxPYJBnrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yorik\\Desktop\\Movies_Blazor\\Shared\\Movies_Blazor.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Shared\\Movies_Blazor.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

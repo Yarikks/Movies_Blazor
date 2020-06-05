@@ -7,3 +7,12 @@ D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\
 D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.AssemblyInfo.cs
 D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.dll
 D:\ASP_NET_Core_3-1\Movies_Blazor\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.pdb
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\bin\Debug\netstandard2.0\Movies_Blazor.Shared.deps.json
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\bin\Debug\netstandard2.0\Movies_Blazor.Shared.dll
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\bin\Debug\netstandard2.0\Movies_Blazor.Shared.pdb
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.csprojAssemblyReference.cache
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.AssemblyInfoInputs.cache
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.AssemblyInfo.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.dll
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Shared\obj\Debug\netstandard2.0\Movies_Blazor.Shared.pdb

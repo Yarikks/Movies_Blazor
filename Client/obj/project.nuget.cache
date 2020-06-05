@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EO/nqGCWNkY2iX/bO9V/V49HFsBILuXRp9iyR7MnyGZxeOF44Lp18e8XgRsxsoEPxb7295qPCGlQzgMw2bdb2Q==",
+  "dgSpecHash": "ZobUk8Rob4EI5NzZVifeJl176PoYJibZkJt9YIxNKl1sRaIJKdQeUFgZQctSGriekhjIgunrGTKvkZSdK1Hbkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yorik\\Desktop\\Movies_Blazor\\Client\\Movies_Blazor.Client.csproj",
+  "projectFilePath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Client\\Movies_Blazor.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorik\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.0-preview3.19555.2\\microsoft.aspnetcore.authorization.3.1.0-preview3.19555.2.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\microsoft.aspnetcore.blazor\\3.1.0-preview3.19555.2\\microsoft.aspnetcore.blazor.3.1.0-preview3.19555.2.nupkg.sha512",
