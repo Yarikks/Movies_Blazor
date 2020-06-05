@@ -276,3 +276,5 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\linker\Movies_Blazor.Shared.pdb
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\blazor.boot.json
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Shared\MoviesList.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\MoviesList.razor.g.cs
