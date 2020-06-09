@@ -2,20 +2,15 @@
 
 <div>
     <h3>Movies</h3>
-    <MoviesList Movies="movies">
-        <NullTemplate>
-            <span>This is loading...</span>
-        </NullTemplate>
-        <EmptyTemplate>
-            <span>No records to see.</span>
-        </EmptyTemplate>
-    </MoviesList>
+    <MoviesList Movies="movies" />
 </div>
 
 @code{
     private List<Movie> movies;
-    protected override void OnInitialized()
+    protected async override Task OnInitializedAsync()
     {
+        await Task.Delay(2000);
+
         movies = new List<Movie>()
         {
             new Movie(){Title = "Spider-Man: Far From Home", ReleaseDate = new DateTime(2019, 7, 2) },
