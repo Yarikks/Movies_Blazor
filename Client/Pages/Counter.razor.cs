@@ -26,13 +26,21 @@ namespace Movies_Blazor.Client.Pages
                 new Movie(){Title = "Avangers", ReleaseDate = new DateTime(2016, 11, 23) }
             };
         }
-        private async Task IncrementCount()
+        
+        [JSInvokable]
+        public async Task IncrementCount()
         {
             currentCount++;
             currentCountStatic++;
             transient.Value = currentCount;
             singleton.Value = currentCount;
             await js.InvokeVoidAsync("dotnetStaticInvocation");
+        }
+
+        private async Task IncrementCountJavascript()
+        {
+            await js.InvokeVoidAsync("dotnetInstanceInvocation",
+                DotNetObjectReference.Create(this));
         }
 
         [JSInvokable]
