@@ -1,8 +1,9 @@
 ﻿@page "/"
 @inject SingletonService singleton
 @inject IRepository repository
+@using static Movies_Blazor.Client.Shared.MainLayout;
 
-<p>Singleton count: @singleton.Value</p>
+<p style="color: @AppState.Color; font-size: @AppState.Size">Singleton count: @singleton.Value</p>
 
 <div>
     <h3>Movies</h3>
@@ -11,6 +12,8 @@
 
 <button @onclick="AddNewMovie">Add new movie.</button>
 @code{
+    [CascadingParameter] public AppState AppState { get; set; }
+
     private List<Movie> movies;
     protected override void OnInitialized()
     {
