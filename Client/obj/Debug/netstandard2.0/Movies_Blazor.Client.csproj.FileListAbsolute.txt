@@ -300,3 +300,7 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Pages\Movies\EditMovie.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Pages\People\CreatePerson.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Pages\People\EditPerson.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Pages\Genres\IndexGenres.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Pages\Genres\IndexGenres.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Pages\People\IndexPeople.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Pages\People\IndexPeople.razor.g.cs
