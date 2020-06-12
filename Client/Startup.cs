@@ -8,8 +8,6 @@ namespace Movies_Blazor.Client
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<SingletonService>();
-            services.AddTransient<TransientService>();
             services.AddTransient<IRepository, RepositoryInMemory>();
         }
 
