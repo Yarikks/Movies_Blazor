@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZobUk8Rob4EI5NzZVifeJl176PoYJibZkJt9YIxNKl1sRaIJKdQeUFgZQctSGriekhjIgunrGTKvkZSdK1Hbkg==",
+  "dgSpecHash": "LatWi1xdRinNe8WfH8RhLqYXe8bmHA5BJ8HJfxhY8hraRG7ZdvvLEptwKs0gx1teiaYI77R7ewR0NMEG5N2E/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Client\\Movies_Blazor.Client.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
     "C:\\Users\\Yorik\\.nuget\\packages\\mono.webassembly.interop\\3.1.0-preview3.19553.2\\mono.webassembly.interop.3.1.0-preview3.19553.2.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
-    "C:\\Users\\Yorik\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0-preview3.19551.4\\system.componentmodel.annotations.4.7.0-preview3.19551.4.nupkg.sha512",
+    "C:\\Users\\Yorik\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0-preview3.19551.4\\system.runtime.compilerservices.unsafe.4.7.0-preview3.19551.4.nupkg.sha512",

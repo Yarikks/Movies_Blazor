@@ -14,7 +14,7 @@ C:\Users\Yorik\.nuget\packages\microsoft.extensions.primitives\3.1.0-preview3.19
 C:\Users\Yorik\.nuget\packages\microsoft.jsinterop\3.1.0-preview3.19553.2\lib\netstandard2.0\Microsoft.JSInterop.dll
 C:\Users\Yorik\.nuget\packages\mono.webassembly.interop\3.1.0-preview3.19553.2\lib\netstandard2.0\Mono.WebAssembly.Interop.dll
 C:\Users\Yorik\.nuget\packages\system.buffers\4.5.0\lib\netstandard2.0\System.Buffers.dll
-C:\Users\Yorik\.nuget\packages\system.componentmodel.annotations\4.7.0-preview3.19551.4\lib\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\Yorik\.nuget\packages\system.componentmodel.annotations\4.7.0\lib\netstandard2.0\System.ComponentModel.Annotations.dll
 C:\Users\Yorik\.nuget\packages\system.memory\4.5.3\lib\netstandard2.0\System.Memory.dll
 C:\Users\Yorik\.nuget\packages\system.numerics.vectors\4.5.0\lib\netstandard2.0\System.Numerics.Vectors.dll
 C:\Users\Yorik\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.0-preview3.19551.4\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll

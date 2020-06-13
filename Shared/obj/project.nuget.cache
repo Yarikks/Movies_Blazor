@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bPy73YcAui1/mOohVsQgagMYQ/jZKzEdnFHyeOdyGAWN0ZgXJ1lQ7UJm04JqPha4/uxj97qCSbCQ7QxPYJBnrw==",
+  "dgSpecHash": "Lal9Qwp+7eju6Ot39kTjIsvqxHx1+PDDVSeQB/7InCMtYlBLnA41MtwXO2DhIT1ynVkDeAFZEaIlD8YJbwuIfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Shared\\Movies_Blazor.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yorik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Yorik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Yorik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Yorik\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

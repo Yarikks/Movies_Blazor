@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rm2Z1g0G73fn/G9eUZprM5pWtx7efwBOr1T+DobJzFTawa0ym3yWl/mjajbWPp388jH1FydieI4mr0MKix2JYQ==",
+  "dgSpecHash": "i16pbNck3XqRm4y9ugyA1lj1IzNU7c4Z3O6tUJxz5pVNDlH2ji7vsqDQDfOf/6ozgw63tJllqSy5hfWluVYIzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yorik\\Desktop\\Blazor_Movies\\Movies_Blazor\\Server\\Movies_Blazor.Server.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\Yorik\\.nuget\\packages\\runtime.native.system.security.cryptography\\4.0.0\\runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",
+    "C:\\Users\\Yorik\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.diagnostics.tracing\\4.1.0\\system.diagnostics.tracing.4.1.0.nupkg.sha512",
     "C:\\Users\\Yorik\\.nuget\\packages\\system.globalization\\4.0.11\\system.globalization.4.0.11.nupkg.sha512",
