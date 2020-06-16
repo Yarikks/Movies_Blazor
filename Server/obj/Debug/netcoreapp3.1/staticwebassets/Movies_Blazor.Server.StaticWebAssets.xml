@@ -1,1 +1,3 @@
-﻿<StaticWebAssets Version="1.0" />
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Tewr.Blazor.FileReader" Path="C:\Users\Yorik\.nuget\packages\tewr.blazor.filereader\1.6.0.20166\build\..\staticwebassets\" />
+</StaticWebAssets>
