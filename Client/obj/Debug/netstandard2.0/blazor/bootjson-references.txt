@@ -1,4 +1,5 @@
 Blazor.FileReader.dll
+Markdig.dll
 Microsoft.AspNetCore.Authorization.dll
 Microsoft.AspNetCore.Blazor.dll
 Microsoft.AspNetCore.Blazor.HttpClient.dll

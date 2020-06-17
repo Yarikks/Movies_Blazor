@@ -285,6 +285,12 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\bin\Debug\netstandard2
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Blazor.FileReader.dll
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\bin\Debug\netstandard2.0\dist\_content\Blazor.FileReader\FileReaderComponent.js
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\bin\Debug\netstandard2.0\Blazor.FileReader.dll
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\linker\Blazor.FileReader.dll
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\_content\Blazor.FileReader\FileReaderComponent.js
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Shared\InputMarkdown.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Shared\RenderMarkdown.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\bin\Debug\netstandard2.0\dist\_framework\_bin\Markdig.dll
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\bin\Debug\netstandard2.0\Markdig.dll
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Movies_Blazor.Client.csproj.CoreCompileInputs.cache
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Movies_Blazor.Client.dll
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Movies_Blazor.Client.TagHelpers.input.cache
@@ -311,10 +317,11 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\GenericList.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\IndividualMovie.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\InputImage.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\InputMarkdown.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\MoviesList.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\RenderMarkdown.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\_Imports.razor.g.cs
-C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\linker\Blazor.FileReader.dll
-C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\_content\Blazor.FileReader\FileReaderComponent.js
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\linker\Markdig.dll
