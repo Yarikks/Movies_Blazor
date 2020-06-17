@@ -325,3 +325,5 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\_Imports.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\blazor\linker\Markdig.dll
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Pages\Movies\MovieForm.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Pages\Movies\MovieForm.razor.g.cs
