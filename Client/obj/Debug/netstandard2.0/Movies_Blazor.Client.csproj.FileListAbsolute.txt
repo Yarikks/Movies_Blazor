@@ -329,3 +329,5 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Pages\Movies\MovieForm.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Shared\MultipleSelector.razor.g.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\MultipleSelector.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\RazorDeclaration\Shared\CustomTypeahead.razor.g.cs
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\obj\Debug\netstandard2.0\Razor\Shared\CustomTypeahead.razor.g.cs
