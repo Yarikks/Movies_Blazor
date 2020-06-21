@@ -149,6 +149,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
             }
           },
           "imports": [

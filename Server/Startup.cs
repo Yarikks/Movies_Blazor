@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using Movies_Blazor.Server.Helpers;
 
 namespace Movies_Blazor.Server
 {
@@ -23,6 +24,9 @@ namespace Movies_Blazor.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IFileStorageService, AzureStorageService>();
+
             services.AddMvc();
             services.AddResponseCompression(opts =>
             {

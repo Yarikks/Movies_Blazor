@@ -113,6 +113,7 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\bin\Debug\netcoreapp3.
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\obj\Debug\netcoreapp3.1\Movies_Blazor.Server.csproj.CoreCompileInputs.cache
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\obj\Debug\netcoreapp3.1\Movies_Blazor.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\obj\Debug\netcoreapp3.1\Movies_Blazor.Server.MvcApplicationPartsAssemblyInfo.cache
