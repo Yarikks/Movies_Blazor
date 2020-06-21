@@ -58,6 +58,11 @@ using Movies_Blazor.Shared.Entities;
 
 #line default
 #line hidden
+#line 10 "C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\_Imports.razor"
+using Movies_Blazor.Client.Repository;
+
+#line default
+#line hidden
     [Microsoft.AspNetCore.Components.RouteAttribute("/person/create")]
     public partial class CreatePerson : Microsoft.AspNetCore.Components.ComponentBase
     {
