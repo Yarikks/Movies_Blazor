@@ -13,6 +13,7 @@ namespace Movies_Blazor.Client
             services.AddTransient<IRepository, RepositoryInMemory>();
             services.AddScoped<IHttpService, HttpService>();
             services.AddScoped<IGenreRepository, GenreRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
         }
 

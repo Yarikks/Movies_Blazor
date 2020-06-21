@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace Movies_Blazor.Client.Repository
 {
-    public class GenreRepository : IGenreRepository
+    public class PersonRepository: IPersonRepository
     {
         private readonly IHttpService httpService;
-        private string url = "api/genres";
+        private string url = "api/people";
 
-        public GenreRepository(IHttpService httpService)
+        public PersonRepository(IHttpService httpService)
         {
             this.httpService = httpService;
         }
-        public async Task CreateGenre(Genre genre)
+        public async Task CreatePerson(Person person)
         {
-            var response = await httpService.Post(url, genre);
+            var response = await httpService.Post(url, person);
             if (!response.Success)
             {
                 throw new ApplicationException(await response.GetBody());
