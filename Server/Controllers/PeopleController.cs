@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Movies_Blazor.Server.Helpers;
 using Movies_Blazor.Shared.Entities;
 
@@ -18,6 +19,12 @@ namespace Movies_Blazor.Server.Controllers
         {
             this.context = context;
             this.fileStorageService = fileStorageService;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<Person>>> Get()
+        {
+            return await context.People.ToListAsync();
         }
 
         [HttpPost]

@@ -16,6 +16,19 @@ namespace Movies_Blazor.Client.Repository
         {
             this.httpService = httpService;
         }
+
+        public async Task<List<Person>> GetPeople()
+        {
+            var response = await httpService.Get<List<Person>>(url);
+
+            if (!response.Success)
+            {
+                throw new ApplicationException(await response.GetBody());
+            }
+
+            return response.Response;
+        }
+
         public async Task CreatePerson(Person person)
         {
             var response = await httpService.Post(url, person);
