@@ -1,29 +1,26 @@
 ﻿@page "/"
-@inject IRepository repository
+@page "/index"
+@inject IMoviesRepository moviesRepository
 
 <div>
-    <h3>Movies</h3>
-    <MoviesList Movies="movies" />
+    <h3>In Theaters</h3>
+    <MoviesList Movies="InTheaters" />
 </div>
 
-<CustomTypeahead SearchMethod="SearchMethod">
-    <ResultTemplate>
-        @context
-    </ResultTemplate>
-</CustomTypeahead>
+<div>
+    <h3>Upcoming Releases</h3>
+    <MoviesList Movies="UpcomingReleases" />
+</div>
 
 @code{
 
-    private List<Movie> movies;
-    protected override void OnInitialized()
-    {
-        movies = repository.GetMovies();
-    }
+    private List<Movie> InTheaters;
+    private List<Movie> UpcomingReleases;
 
-    private async Task<IEnumerable<string>> SearchMethod(string searchText)
+    protected async override Task OnInitializedAsync()
     {
-        await Task.Delay(2000);
-        if(searchText == "test") { return Enumerable.Empty<string>(); }
-        return new List<string>() { "Yarik", "Antoniuk" };
+        var response = await moviesRepository.GetIndexPageDTO();
+        InTheaters = response.InTheaters;
+        UpcomingReleases = response.UpcomingReleases;
     }
 }

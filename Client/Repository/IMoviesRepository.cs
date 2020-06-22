@@ -1,4 +1,5 @@
-﻿using Movies_Blazor.Shared.Entities;
+﻿using Movies_Blazor.Shared.DTOs;
+using Movies_Blazor.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace Movies_Blazor.Client.Repository
     public interface IMoviesRepository
     {
         Task<int> CreateMovie(Movie movie);
+        Task<IndexPageDTO> GetIndexPageDTO();
     }
 }

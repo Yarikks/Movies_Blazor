@@ -17,7 +17,7 @@ namespace Movies_Blazor.Server
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MoviesActors>().HasKey(ma => new { ma.MovieId, ma.PersonId });
-            modelBuilder.Entity<MoviesGenres>().HasKey(mg => new { mg.MovieId, mg.GenresId });
+            modelBuilder.Entity<MoviesGenres>().HasKey(mg => new { mg.MovieId, mg.GenreId });
 
             base.OnModelCreating(modelBuilder);
         }
