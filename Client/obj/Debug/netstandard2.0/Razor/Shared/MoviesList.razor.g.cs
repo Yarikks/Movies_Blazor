@@ -59,6 +59,11 @@ using Movies_Blazor.Client.Repository;
 
 #line default
 #line hidden
+#line 11 "C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\_Imports.razor"
+using Movies_Blazor.Shared.DTOs;
+
+#line default
+#line hidden
     public partial class MoviesList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

@@ -63,6 +63,11 @@ using Movies_Blazor.Client.Repository;
 
 #line default
 #line hidden
+#line 11 "C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\_Imports.razor"
+using Movies_Blazor.Shared.DTOs;
+
+#line default
+#line hidden
     [Microsoft.AspNetCore.Components.RouteAttribute("/movies/edit/{MovieId:int}")]
     public partial class EditMovie : Microsoft.AspNetCore.Components.ComponentBase
     {
