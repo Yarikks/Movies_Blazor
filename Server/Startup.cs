@@ -23,11 +23,13 @@ namespace Movies_Blazor.Server
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddHttpContextAccessor();
             services.AddScoped<IFileStorageService, AzureStorageService>();
 
             services.AddMvc()
-                            .AddNewtonsoftJson(options =>
-                            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore); services.AddResponseCompression(opts =>
+                .AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddResponseCompression(opts =>
             {
                 opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(
                     new[] { "application/octet-stream" });
