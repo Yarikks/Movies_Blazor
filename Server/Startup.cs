@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Movies_Blazor.Server.Helpers;
+using AutoMapper;
 
 namespace Movies_Blazor.Server
 {
@@ -22,6 +23,8 @@ namespace Movies_Blazor.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddHttpContextAccessor();
             services.AddScoped<IFileStorageService, AzureStorageService>();
@@ -29,6 +32,7 @@ namespace Movies_Blazor.Server
             services.AddMvc()
                 .AddNewtonsoftJson(options =>
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
             services.AddResponseCompression(opts =>
             {
                 opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(

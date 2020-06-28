@@ -20,7 +20,7 @@
     protected async override Task OnInitializedAsync()
     {
         var response = await moviesRepository.GetIndexPageDTO();
-        InTheaters = response.InTheaters;
+        InTheaters = response.Intheaters;
         UpcomingReleases = response.UpcomingReleases;
     }
 }

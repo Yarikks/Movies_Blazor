@@ -64,15 +64,15 @@
               "target": "Package",
               "version": "[3.1.0-preview3.19555.2, )"
             },
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
             },
             "Tewr.Blazor.FileReader": {
               "target": "Package",

@@ -26,7 +26,7 @@ namespace Movies_Blazor.Server.Controllers
         }
 
         // for getting a specific Genre
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Genre>> Get(int id)
         {
             var genre =  await context.Genres.FirstOrDefaultAsync(x => x.Id == id);

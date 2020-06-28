@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Net.Http;
 using System.Text;
-using System.Text.Json;
+using System.Text.Json; 
 using System.Threading.Tasks;
 
 namespace Movies_Blazor.Client.Helpers
@@ -11,9 +11,10 @@ namespace Movies_Blazor.Client.Helpers
     public class HttpService : IHttpService
     {
         private readonly HttpClient httpClient;
-
-        private JsonSerializerOptions defaultJsonSerializerOptions =>
-            new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
+        private JsonSerializerOptions serializerOptions = new JsonSerializerOptions()
+        {
+            PropertyNameCaseInsensitive = true
+        };
 
         public HttpService(HttpClient httpClient)
         {
@@ -26,7 +27,7 @@ namespace Movies_Blazor.Client.Helpers
 
             if (responseHTTP.IsSuccessStatusCode)
             {
-                var response = await Deserialize<T>(responseHTTP, defaultJsonSerializerOptions);
+                var response = await Deserialize<T>(responseHTTP, serializerOptions);
                 return new HttpResponseWrapper<T>(response, true, responseHTTP);
             }
             else
@@ -57,7 +58,7 @@ namespace Movies_Blazor.Client.Helpers
             var response = await httpClient.PostAsync(url, stringContent);
             if (response.IsSuccessStatusCode)
             {
-                var responseDeserialized = await Deserialize<TResponse>(response, defaultJsonSerializerOptions);
+                var responseDeserialized = await Deserialize<TResponse>(response, serializerOptions);
                 return new HttpResponseWrapper<TResponse>(responseDeserialized, true, response);
             }
             else

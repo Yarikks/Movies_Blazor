@@ -39,16 +39,16 @@ namespace Movies_Blazor.Server.Controllers
                 .ToListAsync();
 
             var response = new IndexPageDTO();
-            response.InTheaters = moviesInTheaters;
+            response.Intheaters = moviesInTheaters;
             response.UpcomingReleases = upcomingReleases;
 
             return response;
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<DetailsMovieDTO>> Get(int id)
+        public async Task<ActionResult<DetailsMovieDTO>> Get(int Id)
         {
-            var movie = await context.Movies.Where(x => x.Id == id)
+            var movie = await context.Movies.Where(x => x.Id == Id)
                 .Include(x => x.MoviesGenres).ThenInclude(x => x.Genre)
                 .Include(x => x.MoviesActors).ThenInclude(x => x.Person)
                 .FirstOrDefaultAsync();
