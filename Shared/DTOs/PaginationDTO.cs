@@ -7,6 +7,6 @@ namespace Movies_Blazor.Shared.DTOs
     public class PaginationDTO
     {
         public int Page { get; set; } = 1;
-        public int RecordrsPerPage { get; set; } = 10;
+        public int RecordsPerPage { get; set; } = 10;
     }
 }

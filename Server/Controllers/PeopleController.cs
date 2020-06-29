@@ -30,7 +30,7 @@ namespace Movies_Blazor.Server.Controllers
         public async Task<ActionResult<List<Person>>> Get([FromQuery] PaginationDTO paginationDTO)
         {
             var queryable = context.People.AsQueryable();
-            await HttpContext.InsertPaginationParametersInResponse(queryable, paginationDTO.RecordrsPerPage);
+            await HttpContext.InsertPaginationParametersInResponse(queryable, paginationDTO.RecordsPerPage);
 
             return await queryable.Paginate(paginationDTO).ToListAsync();
         }

@@ -26,15 +26,15 @@ namespace Movies_Blazor.Client.Helpers
 
             if (url.Contains("?"))
             {
-                newURL = $"{url}&page={paginationDTO.Page}&recordsPerPage={paginationDTO.RecordrsPerPage}";
+                newURL = $"{url}&page={paginationDTO.Page}&recordsPerPage={paginationDTO.RecordsPerPage}";
             }
             else
             {
-                newURL = $"{url}&page={paginationDTO.Page}&recordsPerPage={paginationDTO.RecordrsPerPage}";
+                newURL = $"{url}?page={paginationDTO.Page}&recordsPerPage={paginationDTO.RecordsPerPage}";
 
             }
 
-            var httpResponse = await httpService.Get<T>(url);
+            var httpResponse = await httpService.Get<T>(newURL);
             var totalAmountPages = int.Parse(httpResponse.HttpResponseMessage.Headers.GetValues("totalAmountPages").FirstOrDefault());
             var paginatedResponse = new PaginatedResponse<T>
             {
