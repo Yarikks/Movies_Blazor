@@ -1,7 +1,6 @@
-﻿using Movies_Blazor.Shared.Entities;
-using System;
+﻿using Movies_Blazor.Shared.DTOs;
+using Movies_Blazor.Shared.Entities;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Movies_Blazor.Client.Repository
@@ -10,7 +9,7 @@ namespace Movies_Blazor.Client.Repository
     {
         Task CreatePerson(Person person);
         Task DeletePerson(int Id);
-        Task<List<Person>> GetPeople();
+        Task<PaginatedResponse<List<Person>>> GetPeople(PaginationDTO paginationDTO);
         Task<List<Person>> GetPeopleByName(string name);
         Task<Person> GetPersonById(int id);
         Task UpdatePerson(Person person);
