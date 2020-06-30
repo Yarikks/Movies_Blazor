@@ -64,6 +64,11 @@ using Movies_Blazor.Shared.DTOs;
 
 #line default
 #line hidden
+#line 12 "C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
 #line 1 "C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\Shared\InputImage.razor"
 using System.IO;
 

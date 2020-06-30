@@ -123,3 +123,4 @@ C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\bin\Debug\netcoreapp3.
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\obj\Debug\netcoreapp3.1\Movies_Blazor.Server.csproj.CoreCompileInputs.cache
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\obj\Debug\netcoreapp3.1\Movies_Blazor.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\obj\Debug\netcoreapp3.1\Movies_Blazor.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll
