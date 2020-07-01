@@ -11,8 +11,13 @@ namespace Movies_Blazor.Client.Auth
     {
         public async override Task<AuthenticationState> GetAuthenticationStateAsync()
         {
-            await Task.Delay(3000);
-            var anonymous = new ClaimsIdentity();
+            //await Task.Delay(3000);
+            var anonymous = new ClaimsIdentity(new List<Claim>()
+            {
+                new Claim("key1", "value1"),
+                new Claim(ClaimTypes.Name, "Yarik"),
+                new Claim(ClaimTypes.Role, "Admin")
+            });
             return await Task.FromResult(new AuthenticationState(new ClaimsPrincipal(anonymous)));
         }
     }
