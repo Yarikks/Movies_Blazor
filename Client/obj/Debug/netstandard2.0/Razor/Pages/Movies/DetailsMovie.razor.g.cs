@@ -69,6 +69,11 @@ using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
+#line 13 "C:\Users\Yorik\Desktop\Blazor_Movies\Movies_Blazor\Client\_Imports.razor"
+using Microsoft.AspNetCore.Authorization;
+
+#line default
+#line hidden
     [Microsoft.AspNetCore.Components.RouteAttribute("/movie/{MovieId:int}")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/movie/{MovieId:int}/{MovieName}")]
     public partial class DetailsMovie : Microsoft.AspNetCore.Components.ComponentBase
