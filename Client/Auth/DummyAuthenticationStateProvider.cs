@@ -15,7 +15,7 @@ namespace Movies_Blazor.Client.Auth
                 new Claim("key1", "value1"),
                 new Claim(ClaimTypes.Name, "Yarik"),
                 new Claim(ClaimTypes.Role, "Admin")
-            });
+            }, "test");
             return await Task.FromResult(new AuthenticationState(new ClaimsPrincipal(anonymous)));
         }
     }

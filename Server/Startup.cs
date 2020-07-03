@@ -8,6 +8,11 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Movies_Blazor.Server.Helpers;
 using AutoMapper;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System;
 
 namespace Movies_Blazor.Server
 {
@@ -23,7 +28,22 @@ namespace Movies_Blazor.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-            
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options => options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["jwt:key"])),
+                    ClockSkew = TimeSpan.Zero
+                });
+
             services.AddAutoMapper(typeof(Startup));
 
             services.AddHttpContextAccessor();
@@ -55,6 +75,8 @@ namespace Movies_Blazor.Server
             app.UseClientSideBlazorFiles<Client.Startup>();
 
             app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
