@@ -19,7 +19,14 @@ namespace Movies_Blazor.Client
             services.AddScoped<IMoviesRepository, MoviesRepository>();
             services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
             services.AddAuthorizationCore();
-            services.AddScoped<AuthenticationStateProvider, DummyAuthenticationStateProvider>();
+
+            services.AddScoped<JWTAuthenticationStateProvider>();
+
+            services.AddScoped<AuthenticationStateProvider, JWTAuthenticationStateProvider>(
+                provider => provider.GetRequiredService<JWTAuthenticationStateProvider>());
+
+            services.AddScoped<ILoginService, JWTAuthenticationStateProvider>(
+                provider => provider.GetRequiredService<JWTAuthenticationStateProvider>());
         }
 
         public void Configure(IComponentsApplicationBuilder app)
