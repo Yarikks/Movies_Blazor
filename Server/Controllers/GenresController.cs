@@ -1,15 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Movies_Blazor.Shared.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Movies_Blazor.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class GenresController :ControllerBase
     {
         private readonly AppDbContext context;
@@ -20,6 +21,7 @@ namespace Movies_Blazor.Server.Controllers
 
         // for getting a list of Genres
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<List<Genre>>> Get()
         {
             return await context.Genres.ToListAsync();

@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace Movies_Blazor.Client.Auth
 {
-    public class ILoginService
+    public interface ILoginService
     {
+        Task Login(string token);
+        Task Logout();
     }
 }
