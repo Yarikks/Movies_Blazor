@@ -1,6 +1,7 @@
 ﻿@page "/movie/{MovieId:int}"
 @page "/movie/{MovieId:int}/{MovieName}"
 @inject IMoviesRepository moviesRepository
+@inject IRatingRepository ratingRepository
 
 @if (model == null)
 {
@@ -21,13 +22,15 @@ else
         }
     }
     <text> | </text> <span>@model.Movie.ReleaseDate.Value.ToString("dd MMM yyyy")</span>
+    <text> | Average: </text> @model.AverageVote.ToString("0.#") <text>/5 | Your vote: </text>
+    <Rating MaxRating="5" SelectedRating="model.UserVote" OnVote="OnVote" />
 
     <div style="display:flex; margin-top:10px">
         <span style="display:inline-block; margin-right:5px;">
             <img src="@model.Movie.Poster" style="width:225px; height:315px" />
         </span>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/@model.Movie.Trailer"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div style="margin-top:10px">
         <h3>Summary</h3>
@@ -57,10 +60,17 @@ else
     [Parameter] public int MovieId { get; set; }
     [Parameter] public string MovieName { get; set; }
     private RenderFragment<Genre> linkGenre = (genre) =>@<a href="movies/search?genreId=@genre.Id">@genre.Name</a>;
-DetailsMovieDTO model;
+    DetailsMovieDTO model;
 
-protected async override Task OnInitializedAsync()
-{
-model = await moviesRepository.GetDetailsMovieDTO(MovieId);
-}
+    protected async override Task OnInitializedAsync()
+    {
+        model = await moviesRepository.GetDetailsMovieDTO(MovieId);
+    }
+
+    private async Task OnVote(int selectedRate)
+    {
+        model.UserVote = selectedRate;
+        var movieRating = new MovieRating() { Rate = selectedRate, MovieId = MovieId };
+        await ratingRepository.Vote(movieRating);
+    }
 }

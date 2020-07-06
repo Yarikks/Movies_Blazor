@@ -8,6 +8,10 @@
   <ItemGroup>
     <Compile Remove="Migrations\20200622155748_RemoveExtraColumn.cs" />
     <Compile Remove="Migrations\20200622155748_RemoveExtraColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200703162212_Identity-Initial.cs" />
+    <Compile Remove="Migrations\20200703162212_Identity-Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200704180706_Voting.cs" />
+    <Compile Remove="Migrations\20200704180706_Voting.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
